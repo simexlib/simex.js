@@ -7,6 +7,7 @@
 | Linux    | [![travis][travis-badge]][travis-url]          |
 | Windows  | [![appveyor][appveyor-badge]][appveyor-url]    |
 | Coverage | [![coveralls][coveralls-badge]][coveralls-url] |
+|          | [![codecov][codecov-badge]][codecov-url]       |
 
 [npm-badge]: 	https://img.shields.io/npm/v/simex.svg
 [npm-url]: https://www.npmjs.com/package/simex
@@ -16,6 +17,9 @@
 
 [appveyor-badge]: https://ci.appveyor.com/api/projects/status/github/simexlib/simex.js?svg=true
 [appveyor-url]: https://ci.appveyor.com/project/simexlib/ci-test/
+
+[codecov-badge]: https://codecov.io/gh/simexlib/simex.js/branch/master/graphs/badge.svg
+[codecov-url]: https://codecov.io/gh/simexlib/simex.js/branch/master
 
 [coveralls-badge]: https://coveralls.io/repos/github/simexlib/simex.js/badge.svg
 [coveralls-url]: https://coveralls.io/github/simexlib/simex.js
