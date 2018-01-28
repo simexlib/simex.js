@@ -1,0 +1,58 @@
+[{
+    "expression": {
+        "slice": {
+            "slice": {}
+        }
+    }
+}, {
+    "expression": {
+        "slice": {
+            "array": {
+                "separator": "|"
+            }
+        }
+    }
+}, {
+    "expression": {
+        "slice": {
+            "dictionary": {}
+        }
+    }
+}, {
+    "expression": {
+        "slice": {
+            "slice": 0,
+            "array": 0
+        }
+    },
+    "error": "subexpressions",
+    "at": "slice"
+}, {
+    "expression": {
+        "slice": {
+            "slice": 0,
+            "dictionary": 0
+        }
+    },
+    "error": "subexpressions",
+    "at": "slice"
+}, {
+    "expression": {
+        "slice": {
+            "slice": 0,
+            "array": 0,
+            "dictionary": 0
+        }
+    },
+    "error": "subexpressions",
+    "at": "slice"
+}, {
+    "expression": {
+        "slice": {
+            "array": 0,
+            "dictionary": 0
+        }
+    },
+    "error": "subexpressions",
+    "at": "slice"
+}]

@@ -1,0 +1,21 @@
+[{
+    "expression": null,
+    "error": "expression"
+}, {
+    "expression": false,
+    "error": "expression"
+}, {
+    "expression": true,
+    "error": "expression"
+}, {
+    "expression": 0,
+    "error": "expression"
+}, {
+    "expression": "string",
+    "error": "expression"
+}, {
+    "expression": {}
+}, {
+    "expression": ["array"],
+    "error": "expression"
+}]

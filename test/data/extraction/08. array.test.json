@@ -1,0 +1,98 @@
+[{
+    "input": " 0 ",
+    "expression": {
+        "array": {
+            "separator": " "
+        }
+    },
+    "output": ["", "0", ""]
+}, {
+    "input": " 0 ",
+    "expression": {
+        "array": {
+            "separator": " ",
+            "skip": "empty"
+        }
+    },
+    "output": ["0"]
+}, {
+    "input": " 0 1 2 3 ",
+    "expression": {
+        "array": {
+            "separator": " "
+        }
+    },
+    "output": ["", "0", "1", "2", "3", ""]
+}, {
+    "input": " 0 1 2 3 ",
+    "expression": {
+        "array": {
+            "separator": " ",
+            "skip": "empty"
+        }
+    },
+    "output": ["0", "1", "2", "3"]
+}, {
+    "input": " 0  1  2  3 ",
+    "expression": {
+        "array": {
+            "separator": " "
+        }
+    },
+    "output": ["", "0", "", "1", "", "2", "", "3", ""]
+}, {
+    "input": " 0  1  2  3 ",
+    "expression": {
+        "array": {
+            "separator": " ",
+            "skip": "empty"
+        }
+    },
+    "output": ["0", "1", "2", "3"]
+}, {
+    "input": " 0|1|2|3 ",
+    "expression": {
+        "array": {
+            "separator": [" ", "|"]
+        }
+    },
+    "output": ["", "0", "1", "2", "3", ""]
+}, {
+    "input": "#0|#1|#2|3",
+    "expression": {
+        "array": {
+            "separator": "|",
+            "slice": {
+                "has": "#"
+            }
+        }
+    },
+    "error": "unmatch",
+    "at": "array.slice.has"
+}, {
+    "input": " #0|#1|#2|3 ",
+    "expression": {
+        "array": {
+            "separator": [" ", "|"],
+            "skip": "invalid",
+            "slice": {
+                "has": "#"
+            }
+        }
+    },
+    "output": ["#0", "#1", "#2"]
+}, {
+    "input": " #0|#|#2",
+    "expression": {
+        "array": {
+            "separator": "|",
+            "skip": ["empty", "invalid"],
+            "slice": {
+                "between": {
+                    "prefix": "#"
+                }
+            }
+        }
+    },
+    "output": ["0", "2"]
+}]

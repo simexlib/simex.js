@@ -1,0 +1,77 @@
+[{
+    "expression": {
+        "array": {
+            "separator": null
+        }
+    },
+    "error": "separator",
+    "at": "array.separator"
+}, {
+    "expression": {
+        "array": {
+            "separator": false
+        }
+    },
+    "error": "separator",
+    "at": "array.separator"
+}, {
+    "expression": {
+        "array": {
+            "separator": true
+        }
+    },
+    "error": "separator",
+    "at": "array.separator"
+}, {
+    "expression": {
+        "array": {
+            "separator": 0
+        }
+    },
+    "error": "separator",
+    "at": "array.separator"
+}, {
+    "expression": {
+        "array": {
+            "separator": "string"
+        }
+    }
+}, {
+    "expression": {
+        "array": {
+            "separator": ""
+        }
+    },
+    "error": "separator",
+    "at": "array.separator"
+}, {
+    "expression": {
+        "array": {
+            "separator": {}
+        }
+    },
+    "error": "separator",
+    "at": "array.separator"
+}, {
+    "expression": {
+        "array": {
+            "separator": ["array"]
+        }
+    }
+}, {
+    "expression": {
+        "array": {
+            "separator": ["array", ""]
+        }
+    },
+    "error": "separator",
+    "at": "array.separator"
+}, {
+    "expression": {
+        "array": {
+            "separator": ["array", 0]
+        }
+    },
+    "error": "separator",
+    "at": "array.separator"
+}]

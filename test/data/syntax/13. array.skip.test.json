@@ -1,0 +1,99 @@
+[{
+    "expression": {
+        "array": {
+            "separator": "|",
+            "skip": null
+        }
+    },
+    "error": "skip",
+    "at": "array.skip"
+}, {
+    "expression": {
+        "array": {
+            "separator": "|",
+            "skip": false
+        }
+    },
+    "error": "skip",
+    "at": "array.skip"
+}, {
+    "expression": {
+        "array": {
+            "separator": "|",
+            "skip": true
+        }
+    },
+    "error": "skip",
+    "at": "array.skip"
+}, {
+    "expression": {
+        "array": {
+            "separator": "|",
+            "skip": 0
+        }
+    },
+    "error": "skip",
+    "at": "array.skip"
+}, {
+    "expression": {
+        "array": {
+            "separator": "|",
+            "skip": "string"
+        }
+    },
+    "error": "skip",
+    "at": "array.skip"
+}, {
+    "expression": {
+        "array": {
+            "separator": "|",
+            "skip": "empty"
+        }
+    }
+}, {
+    "expression": {
+        "array": {
+            "separator": "|",
+            "skip": "invalid"
+        }
+    }
+}, {
+    "expression": {
+        "array": {
+            "separator": "|",
+            "skip": {}
+        }
+    },
+    "error": "skip",
+    "at": "array.skip"
+}, {
+    "expression": {
+        "array": {
+            "separator": "|",
+            "skip": ["array"]
+        }
+    },
+    "error": "skip",
+    "at": "array.skip"
+}, {
+    "expression": {
+        "array": {
+            "separator": "|",
+            "skip": ["empty"]
+        }
+    }
+}, {
+    "expression": {
+        "array": {
+            "separator": "|",
+            "skip": ["invalid"]
+        }
+    }
+}, {
+    "expression": {
+        "array": {
+            "separator": "|",
+            "skip": ["empty", "invalid"]
+        }
+    }
+}]

@@ -1,0 +1,55 @@
+[{
+    "expression": {
+        "dictionary": {
+            "name": null
+        }
+    },
+    "error": "member",
+    "at": "dictionary.name"
+}, {
+    "expression": {
+        "dictionary": {
+            "name": false
+        }
+    },
+    "error": "member",
+    "at": "dictionary.name"
+}, {
+    "expression": {
+        "dictionary": {
+            "name": true
+        }
+    },
+    "error": "member",
+    "at": "dictionary.name"
+}, {
+    "expression": {
+        "dictionary": {
+            "name": 0
+        }
+    },
+    "error": "member",
+    "at": "dictionary.name"
+}, {
+    "expression": {
+        "dictionary": {
+            "name": "string"
+        }
+    },
+    "error": "member",
+    "at": "dictionary.name"
+}, {
+    "expression": {
+        "dictionary": {
+            "name": {}
+        }
+    }
+}, {
+    "expression": {
+        "dictionary": {
+            "name": ["array"]
+        }
+    },
+    "error": "member",
+    "at": "dictionary.name"
+}]

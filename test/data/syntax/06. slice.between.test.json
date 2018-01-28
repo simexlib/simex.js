@@ -1,0 +1,55 @@
+[{
+    "expression": {
+        "slice": {
+            "between": null
+        }
+    },
+    "error": "between",
+    "at": "slice.between"
+}, {
+    "expression": {
+        "slice": {
+            "between": false
+        }
+    },
+    "error": "between",
+    "at": "slice.between"
+}, {
+    "expression": {
+        "slice": {
+            "between": true
+        }
+    },
+    "error": "between",
+    "at": "slice.between"
+}, {
+    "expression": {
+        "slice": {
+            "between": 0
+        }
+    },
+    "error": "between",
+    "at": "slice.between"
+}, {
+    "expression": {
+        "slice": {
+            "between": "string"
+        }
+    },
+    "error": "between",
+    "at": "slice.between"
+}, {
+    "expression": {
+        "slice": {
+            "between": {}
+        }
+    }
+}, {
+    "expression": {
+        "slice": {
+            "between": ["array"]
+        }
+    },
+    "error": "between",
+    "at": "slice.between"
+}]

@@ -1,0 +1,127 @@
+[{
+    "input": " 0 ",
+    "expression": {
+        "dictionary": {
+            "name": {}
+        }
+    },
+    "output": {
+        "name": " 0 "
+    }
+}, {
+    "input": " 0 ",
+    "expression": {
+        "dictionary": {
+            "name": {
+                "between": {
+                    "trim": true
+                }
+            }
+        }
+    },
+    "output": {
+        "name": "0"
+    }
+}, {
+    "input": " n0:0 n1: 1# ",
+    "expression": {
+        "dictionary": {
+            "n0": {
+                "between": {
+                    "prefix": "n0:",
+                    "suffix": " "
+                }
+            },
+            "n1": {
+                "between": {
+                    "prefix": "n1:",
+                    "suffix": "#",
+                    "trim": true
+                }
+            }
+        }
+    },
+    "output": {
+        "n0": "0",
+        "n1": "1"
+    }
+}, {
+    "input": " n0:0 n1: 1# ",
+    "expression": {
+        "dictionary": {
+            "n0": {
+                "between": {
+                    "prefix": "n0:",
+                    "suffix": " "
+                }
+            },
+            "n1": {
+                "required": false,
+                "between": {
+                    "prefix": "n1:",
+                    "suffix": "$"
+                }
+            }
+        }
+    },
+    "output": {
+        "n0": "0"
+    }
+}, {
+    "input": " n0:0 n1: 1# ",
+    "expression": {
+        "dictionary": {
+            "n0": {
+                "required": "g",
+                "between": {
+                    "prefix": "n0:",
+                    "suffix": " "
+                }
+            },
+            "n1": {
+                "required": "g",
+                "between": {
+                    "prefix": "n1:",
+                    "suffix": "$"
+                }
+            }
+        }
+    },
+    "output": {
+        "n0": "0"
+    }
+}, {
+    "input": " 0 ",
+    "expression": {
+        "dictionary": {
+            "name": {
+                "has": "#"
+            }
+        }
+    },
+    "error": "unmatch",
+    "at": "dictionary.name.has"
+}, {
+    "input": " 0 ",
+    "expression": {
+        "dictionary": {
+            "name": {
+                "required": "g",
+                "has": "#"
+            }
+        }
+    },
+    "error": "unmatch",
+    "at": "dictionary.name(g).has"
+}, {
+    "input": " 0 ",
+    "expression": {
+        "dictionary": {
+            "name": {
+                "has": "#"
+            }
+        }
+    },
+    "error": "unmatch",
+    "at": "dictionary.name.has"
+}]

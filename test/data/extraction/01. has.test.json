@@ -1,0 +1,28 @@
+[
+    {
+        "expression": {
+            "slice": {
+                "has": "#"
+            }
+        },
+        "input": "#0",
+        "output": "#0"
+    }, {
+        "expression": {
+            "slice": {
+                "has": "#"
+            }
+        },
+        "input": "0",
+        "error": "unmatch",
+        "at": "slice.has"
+    }, {
+        "expression": {
+            "slice": {
+                "has": "\u0000"
+            }
+        },
+        "input": "0\u00001",
+        "output": "0\u00001"
+    }
+]

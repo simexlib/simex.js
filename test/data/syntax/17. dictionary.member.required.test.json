@@ -1,0 +1,75 @@
+[{
+    "expression": {
+        "dictionary": {
+            "name": {
+                "required": null
+            }
+        }
+    },
+    "error": "required",
+    "at": "dictionary.name.required"
+}, {
+    "expression": {
+        "dictionary": {
+            "name": {
+                "required": false
+            }
+        }
+    }
+}, {
+    "expression": {
+        "dictionary": {
+            "name": {
+                "required": true
+            }
+        }
+    }
+}, {
+    "expression": {
+        "dictionary": {
+            "name": {
+                "required": 0
+            }
+        }
+    },
+    "error": "required",
+    "at": "dictionary.name.required"
+}, {
+    "expression": {
+        "dictionary": {
+            "name": {
+                "required": "string"
+            }
+        }
+    }
+}, {
+    "expression": {
+        "dictionary": {
+            "name": {
+                "required": ""
+            }
+        }
+    },
+    "error": "required",
+    "at": "dictionary.name.required"
+}, {
+    "expression": {
+        "dictionary": {
+            "name": {
+                "required": {}
+            }
+        }
+    },
+    "error": "required",
+    "at": "dictionary.name.required"
+}, {
+    "expression": {
+        "dictionary": {
+            "name": {
+                "required": ["array"]
+            }
+        }
+    },
+    "error": "required",
+    "at": "dictionary.name.required"
+}]

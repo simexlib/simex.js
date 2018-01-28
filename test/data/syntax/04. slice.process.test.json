@@ -1,0 +1,93 @@
+[{
+    "expression": {
+        "slice": {
+            "process": null
+        }
+    },
+    "error": "process",
+    "at": "slice.process"
+}, {
+    "expression": {
+        "slice": {
+            "process": false
+        }
+    },
+    "error": "process",
+    "at": "slice.process"
+}, {
+    "expression": {
+        "slice": {
+            "process": true
+        }
+    },
+    "error": "process",
+    "at": "slice.process"
+}, {
+    "expression": {
+        "slice": {
+            "process": 0
+        }
+    },
+    "error": "process",
+    "at": "slice.process"
+}, {
+    "expression": {
+        "slice": {
+            "process": "nofunction"
+        }
+    },
+    "error": "processUndefined",
+    "at": "slice.process"
+}, {
+    "expression": {
+        "slice": {
+            "process": ":int"
+        }
+    },
+    "error": "processUndefined",
+    "at": "slice.process"
+}, {
+    "expression": {
+        "slice": {
+            "process": "int"
+        }
+    },
+    "processors": ["int"]
+}, {
+    "expression": {
+        "slice": {
+            "process": "int:"
+        }
+    },
+    "processors": ["int"]
+}, {
+    "expression": {
+        "slice": {
+            "process": "int:10"
+        }
+    },
+    "processors": ["int"]
+}, {
+    "expression": {
+        "slice": {
+            "process": "int"
+        }
+    },
+    "processors": ["int"]
+}, {
+    "expression": {
+        "slice": {
+            "process": {}
+        }
+    },
+    "error": "process",
+    "at": "slice.process"
+}, {
+    "expression": {
+        "slice": {
+            "process": ["array"]
+        }
+    },
+    "error": "process",
+    "at": "slice.process"
+}]

@@ -1,0 +1,67 @@
+[{
+    "expression": {
+        "slice": {
+            "between": {
+                "trim": null
+            }
+        }
+    },
+    "error": "trim",
+    "at": "slice.between.trim"
+}, {
+    "expression": {
+        "slice": {
+            "between": {
+                "trim": false
+            }
+        }
+    }
+}, {
+    "expression": {
+        "slice": {
+            "between": {
+                "trim": true
+            }
+        }
+    }
+}, {
+    "expression": {
+        "slice": {
+            "between": {
+                "trim": 0
+            }
+        }
+    },
+    "error": "trim",
+    "at": "slice.between.trim"
+}, {
+    "expression": {
+        "slice": {
+            "between": {
+                "trim": "string"
+            }
+        }
+    },
+    "error": "trim",
+    "at": "slice.between.trim"
+}, {
+    "expression": {
+        "slice": {
+            "between": {
+                "trim": {}
+            }
+        }
+    },
+    "error": "trim",
+    "at": "slice.between.trim"
+}, {
+    "expression": {
+        "slice": {
+            "between": {
+                "trim": ["array"]
+            }
+        }
+    },
+    "error": "trim",
+    "at": "slice.between.trim"
+}]

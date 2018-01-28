@@ -1,0 +1,77 @@
+[{
+    "expression": {
+        "slice": {
+            "between": {
+                "suffix": null
+            }
+        }
+    },
+    "error": "suffix",
+    "at": "slice.between.suffix"
+}, {
+    "expression": {
+        "slice": {
+            "between": {
+                "suffix": false
+            }
+        }
+    },
+    "error": "suffix",
+    "at": "slice.between.suffix"
+}, {
+    "expression": {
+        "slice": {
+            "between": {
+                "suffix": true
+            }
+        }
+    },
+    "error": "suffix",
+    "at": "slice.between.suffix"
+}, {
+    "expression": {
+        "slice": {
+            "between": {
+                "suffix": 0
+            }
+        }
+    },
+    "error": "suffix",
+    "at": "slice.between.suffix"
+}, {
+    "expression": {
+        "slice": {
+            "between": {
+                "suffix": "string"
+            }
+        }
+    }
+}, {
+    "expression": {
+        "slice": {
+            "between": {
+                "suffix": {}
+            }
+        }
+    },
+    "error": "suffix",
+    "at": "slice.between.suffix"
+}, {
+    "expression": {
+        "slice": {
+            "between": {
+                "suffix": ["string"]
+            }
+        }
+    }
+}, {
+    "expression": {
+        "slice": {
+            "between": {
+                "suffix": [0]
+            }
+        }
+    },
+    "error": "suffix",
+    "at": "slice.between.suffix"
+}]

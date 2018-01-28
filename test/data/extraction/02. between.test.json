@@ -1,0 +1,12 @@
+[{
+    "input": " 0 X 2 0 1 ",
+    "expression": {
+        "between": {
+            "backward": true,
+            "prefix": ["0", "2"],
+            "suffix": "0",
+            "trim": true
+        }
+    },
+    "output": "X"
+}]

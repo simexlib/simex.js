@@ -1,0 +1,49 @@
+[{
+    "expression": {
+        "array": null
+    },
+    "error": "array",
+    "at": "array"
+}, {
+    "expression": {
+        "array": false
+    },
+    "error": "array",
+    "at": "array"
+}, {
+    "expression": {
+        "array": true
+    },
+    "error": "array",
+    "at": "array"
+}, {
+    "expression": {
+        "array": 0
+    },
+    "error": "array",
+    "at": "array"
+}, {
+    "expression": {
+        "array": "string"
+    },
+    "error": "array",
+    "at": "array"
+}, {
+    "expression": {
+        "array": {}
+    },
+    "error": "separatorMissing",
+    "at": "array"
+}, {
+    "expression": {
+        "array": {
+            "separator": "|"
+        }
+    }
+}, {
+    "expression": {
+        "array": ["array"]
+    },
+    "error": "array",
+    "at": "array"
+}]

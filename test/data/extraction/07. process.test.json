@@ -1,0 +1,41 @@
+[{
+    "input": "1.1",
+    "expression": {
+        "process": "int"
+    },
+    "output": "1",
+    "processors": ["int"]
+}, {
+    "input": "th",
+    "expression": {
+        "process": "int"
+    },
+    "processors": ["int"],
+    "error": "unmatch",
+    "at": "process"
+}, {
+    "input": "1.1",
+    "expression": {
+        "process": "float"
+    },
+    "output": "1.1",
+    "processors": ["float"]
+}, {
+    "input": "th",
+    "expression": {
+        "process": "float"
+    },
+    "processors": ["float"],
+    "error": "unmatch",
+    "at": "process"
+}, {
+    "input": "th",
+    "expression": {
+        "slice": {
+            "process": "float"
+        }
+    },
+    "processors": ["float"],
+    "error": "unmatch",
+    "at": "slice.process"
+}]

@@ -1,0 +1,41 @@
+[{
+    "expression": {
+        "dictionary": null
+    },
+    "error": "dictionary",
+    "at": "dictionary"
+}, {
+    "expression": {
+        "dictionary": false
+    },
+    "error": "dictionary",
+    "at": "dictionary"
+}, {
+    "expression": {
+        "dictionary": true
+    },
+    "error": "dictionary",
+    "at": "dictionary"
+}, {
+    "expression": {
+        "dictionary": 0
+    },
+    "error": "dictionary",
+    "at": "dictionary"
+}, {
+    "expression": {
+        "dictionary": "string"
+    },
+    "error": "dictionary",
+    "at": "dictionary"
+}, {
+    "expression": {
+        "dictionary": {}
+    }
+}, {
+    "expression": {
+        "dictionary": ["array"]
+    },
+    "error": "dictionary",
+    "at": "dictionary"
+}]
